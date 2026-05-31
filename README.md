@@ -58,9 +58,6 @@ Deploy to your preferred platform:
 - **Netlify**: Connect GitHub repo and auto-deploy
 - **GitHub Pages**: Use `npm run build` and deploy `dist/` folder
 
-## 📖 Documentation
-
-- [Product Requirements](PRD.md) - Detailed product specification
 
 ## 📄 License
 
