@@ -25,31 +25,38 @@ AutoFormat intelligently recognizes heading levels ("Chapter X", "1.1", "一、"
 
 ```
 AutoFormat/
-├── AutoFormat/                 # Main application
-│   ├── src/                   # Source code
-│   │   ├── components/        # React components
-│   │   ├── utils/             # Utility functions
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── public/                # Static assets
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-├── PRD.md                     # Product requirements
-└── README.md
+├── src/                       # Source code
+│   ├── components/            # React components
+│   ├── utils/                 # Utility functions
+│   ├── App.jsx
+│   └── main.jsx
+├── public/                    # Static assets
+├── index.html
+├── package.json
+└── vite.config.js
 ```
 
 ## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/luke99810/AutoFormat.git
 cd AutoFormat
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-Open http://localhost:5173 to use the formatter.
+## 🌐 Deployment
 
-Or simply open `index.html` directly in your browser.
+Deploy to your preferred platform:
+
+- **Vercel**: `vercel deploy`
+- **Netlify**: Connect GitHub repo and auto-deploy
+- **GitHub Pages**: Use `npm run build` and deploy `dist/` folder
 
 ## 📖 Documentation
 
